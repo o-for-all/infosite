@@ -234,7 +234,7 @@ span {
     color: rgb(4, 61, 61, 0.33);
 }
 
-.o-logo {
+#hero .o-logo {
     width: 500px;
     height: 500px;
     background-color: transparent;
@@ -266,7 +266,7 @@ span {
         line-height: 36px;
     }
 
-    .o-logo {
+    #hero .o-logo {
         width: 300px;
         height: 300px;
         border: 32px solid #00a99d;
@@ -326,8 +326,25 @@ span {
 }
 
 @media (max-width: 575px) {
+    #hero .o-logo {
+        width: 260px;
+        height: 260px;
+        border: 27px solid #00a99d;
+    }
+
+    #hero {
+        margin-top: 75px;
+    }
+
+    #hero h1 {
+        margin: 20px 0 20px 0;
+    }
+
     #hero .btns a {
         margin: 4px 8px;
+    }
+    #hero .btn-get-started {
+        margin-top: 30px;
     }
 }
 
@@ -890,6 +907,12 @@ section {
     max-width: 33%;
 }
 
+@media (max-width: 554px) {
+    #features .col-md-6 {
+        max-width: 100%;
+    }
+}
+
 #features .feature-block {
     background: #fff none repeat scroll 0 0;
     padding: 30px 20px;
@@ -1054,6 +1077,22 @@ section {
 #testimonials .testimonials-content {
     box-shadow: 0 0 35px rgba(0, 0, 0, 0.1);
     padding: 49px 20px;
+}
+
+@media (max-width: 991px) {
+    #testimonials .testimonials-content {
+        overflow-y: scroll;
+        height: 900px;
+        width: 100%;
+    }
+}
+
+@media (max-width: 554px) {
+    #testimonials .testimonials-content {
+        overflow-y: scroll;
+        height: 500px;
+        width: 100%;
+    }
 }
 
 #testimonials .testimonials-content::before {
