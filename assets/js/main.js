@@ -169,7 +169,7 @@
 
   // Modal video
   new ModalVideo('.js-modal-btn', {
-    channel: 'youtube'
+    channel: ''
   });
 
   // Init Owl Carousel
