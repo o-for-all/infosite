@@ -205,12 +205,6 @@ span {
     margin-top: 60px;
 }
 
-@media (max-width: 1025px) {
-    #hero {
-        margin-top: 200px;
-    }
-}
-
 #hero .hero-container {
     position: absolute;
     bottom: 0;
