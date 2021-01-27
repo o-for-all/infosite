@@ -157,8 +157,13 @@ span {
     padding: 20px 0;
 }
 
+#header .container {
+    display: flex;
+}
+
 #header #logo {
     padding: 6px 0 0 0;
+    flex: auto;
 }
 
 #header #logo h1 {
